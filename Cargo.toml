@@ -30,7 +30,7 @@ members = [
 # Features are documented in the "Crate features" section of the crate docs:
 # https://docs.rs/regex/*/#crate-features
 [features]
-default = ["std", "perf"]
+default = ["std"]
 
 # ECOSYSTEM FEATURES
 
