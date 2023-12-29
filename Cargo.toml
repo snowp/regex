@@ -62,14 +62,7 @@ use_std = ["std"]
 # not include perf-dfa-full, because it leads to higher compile times and
 # bigger binaries, and the runtime performance improvement is not obviously
 # worth it.
-perf = [
-  "perf-cache",
-  "perf-dfa",
-  "perf-onepass",
-  "perf-backtrack",
-  "perf-inline",
-  "perf-literal",
-]
+perf = []
 # Enables use of a lazy DFA when possible.
 perf-dfa = ["regex-automata/hybrid"]
 # Enables use of a fully compiled DFA when possible.
